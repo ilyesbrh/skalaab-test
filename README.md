@@ -1,6 +1,6 @@
 # skalaab-test
  
-This project is created using ####Angular & ####NodeJs framework Called ####LoopBack
+This project is created using **Angular** & **NodeJs** framework Called **LoopBack**
 
 To RUN:
 * Backend
