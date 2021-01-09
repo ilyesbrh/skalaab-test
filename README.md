@@ -12,3 +12,4 @@ To RUN:
   
 Note:
 > I used some of my old projects code as starting boilerPlate
+> No database needed (in-memory datasource)
