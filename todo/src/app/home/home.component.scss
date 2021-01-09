@@ -1,0 +1,99 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+
+  background-color: #e1e1e1;
+}
+
+.main-container {
+  @extend .shadow;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: fit-content;
+  max-width: 500px;
+
+  padding: 48px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  border-radius: 8px;
+
+  background-color: white;
+
+  .add {
+    margin-left: auto;
+    margin-top: 24px;
+    width: 120px;
+  }
+}
+.disconnect {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+}
+
+/* Helpers */
+
+@import "~@angular/material/theming";
+
+.shadow {
+  // Adds a shadow for elevation level 2 with default color and full opacity:
+  @include mat-elevation(8);
+}
+
+// Drag & drop styling
+.example-list {
+  width: 500px;
+  max-width: 100%;
+  min-height: 60px;
+  display: block;
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.example-box {
+  padding: 20px 10px;
+  margin-top: 12px;
+  border-bottom: solid 1px #ccc;
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  cursor: move;
+  background: white;
+  font-size: 14px;
+}
+.cdk-drag-preview {
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.cdk-drag-placeholder {
+  opacity: 0;
+}
+
+.cdk-drag-animating {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.example-box:last-child {
+  border: none;
+}
+
+.example-list.cdk-drop-list-dragging .example-box:not(.cdk-drag-placeholder) {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}

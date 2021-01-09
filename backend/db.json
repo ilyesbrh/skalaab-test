@@ -1,0 +1,24 @@
+{
+  "ids": {
+    "Todo": 10,
+    "UserCredentials": 1,
+    "User": 5
+  },
+  "models": {
+    "Todo": {
+      "c83c21c0-cd96-43f2-9163-e7f4ced47554": "{\"id\":\"c83c21c0-cd96-43f2-9163-e7f4ced47554\",\"title\":\"string\",\"description\":\"string\",\"date\":\"2021-01-09T10:03:19.965Z\",\"done\":true,\"userId\":\"317698cd-6b77-4f0f-a6ef-7b4bc8f4b3d3\"}",
+      "56079182-d0d4-4977-a19c-4d60c554b2a3": "{\"id\":\"56079182-d0d4-4977-a19c-4d60c554b2a3\",\"title\":\"string\",\"description\":\"string\",\"date\":\"2021-01-09T10:03:19.965Z\",\"done\":true,\"userId\":\"317698cd-6b77-4f0f-a6ef-7b4bc8f4b3d3\"}",
+      "51902927-f94a-4ff6-ac55-b073f3d4b66c": "{\"id\":\"51902927-f94a-4ff6-ac55-b073f3d4b66c\",\"title\":\"string\",\"description\":\"string\",\"date\":\"2021-01-09T10:03:19.965Z\",\"done\":true,\"userId\":\"317698cd-6b77-4f0f-a6ef-7b4bc8f4b3d3\"}",
+      "bf50a072-2ea8-4cdc-9b55-57718ffff06d": "{\"id\":\"bf50a072-2ea8-4cdc-9b55-57718ffff06d\",\"title\":\"string\",\"description\":\"string\",\"date\":\"2021-01-09T10:17:35.112Z\",\"done\":true,\"userId\":\"317698cd-6b77-4f0f-a6ef-7b4bc8f4b3d3\"}",
+      "e658f73a-0ef7-49b7-8df9-538799243ab8": "{\"id\":\"e658f73a-0ef7-49b7-8df9-538799243ab8\",\"title\":\"string\",\"description\":\"string\",\"date\":\"2021-01-09T10:17:35.112Z\",\"done\":true,\"userId\":\"317698cd-6b77-4f0f-a6ef-7b4bc8f4b3d3\"}",
+      "4f474eb2-60ca-48f9-99b1-7ac75fc77262": "{\"id\":\"4f474eb2-60ca-48f9-99b1-7ac75fc77262\",\"title\":\"gv\",\"description\":\"ogjegko\",\"date\":\"2021-01-27T23:00:00.000Z\",\"done\":false,\"userId\":\"1714d193-f8e2-4b47-83ff-ba6ea93be290\"}"
+    },
+    "UserCredentials": {},
+    "User": {
+      "317698cd-6b77-4f0f-a6ef-7b4bc8f4b3d3": "{\"id\":\"317698cd-6b77-4f0f-a6ef-7b4bc8f4b3d3\",\"email\":\"user@example.com\"}",
+      "1714d193-f8e2-4b47-83ff-ba6ea93be290": "{\"id\":\"1714d193-f8e2-4b47-83ff-ba6ea93be290\",\"email\":\"user@example.com\"}",
+      "2aeaa1ce-faae-45f3-8637-db2fd8310af3": "{\"id\":\"2aeaa1ce-faae-45f3-8637-db2fd8310af3\",\"email\":\"user@example.com\"}",
+      "2eedd7e2-5417-4729-96af-d9fff24febe4": "{\"id\":\"2eedd7e2-5417-4729-96af-d9fff24febe4\",\"email\":\"user@example.com\"}"
+    }
+  }
+}

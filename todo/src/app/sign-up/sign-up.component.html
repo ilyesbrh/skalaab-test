@@ -1,0 +1,13 @@
+<div class="login-container">
+  <img src="/assets/folder.svg" alt="" class="logo">
+  <h2>SignUp </h2>
+  <mat-form-field class="input login" appearance="outline">
+    <mat-label>Email</mat-label>
+    <input matInput placeholder="put your email here" [(ngModel)]="data.email">
+    <mat-icon matSuffix>account_circle</mat-icon>
+  </mat-form-field>
+  <div class="actions">
+    <div></div>
+    <button mat-raised-button color="primary" (click)="register()">Register</button>
+  </div>
+</div>

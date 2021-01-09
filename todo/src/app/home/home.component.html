@@ -1,0 +1,15 @@
+<div class="main-container">
+
+  <h2>TODOS</h2>
+
+  <div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
+    <div cdkDrag class="example-box" *ngFor="let t of state.Todo"
+      [ngStyle]="{'background-color': t.done?'#90ee90':'#e1e1e1'}" (click)="open(t)">{{t.title}}</div>
+  </div>
+
+  <button class="add" mat-raised-button color="primary" [routerLink]="[ '/add' ]">add Todo</button>
+</div>
+
+<button mat-fab class="disconnect" (click)="disconnect()">
+  <mat-icon>exit_to_app</mat-icon>
+</button>

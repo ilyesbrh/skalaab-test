@@ -1,0 +1,13 @@
+<div class="main-container">
+
+  <h2>{{data.title}}</h2>
+  <p>{{data.description}}</p>
+
+  <p style="color: red;">{{data.date | date}}</p>
+
+  <div class="actions">
+    <button mat-button color="warn" (click)="delete()">Delete</button>
+    <button mat-raised-button color="primary" (click)="done()">Done</button>
+  </div>
+
+</div>
